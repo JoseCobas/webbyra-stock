@@ -13,7 +13,8 @@
 }
 
 .logo {
-  line-height: 50px;
+  position: relative;
+  top: -10px;
   margin-left: 30px;
   font-family: 'inter', sans-serif;
   font-size: 12px;
@@ -53,7 +54,7 @@ ul li a {
   position: relative;
   top: -10;
   left: 25;
-  
+
 }
 
 .icon-bar {
@@ -92,7 +93,7 @@ ul li a {
 
 #main {
   background: #FFFFFF;
-  height: 1200px;
+  height: 1030px;
   width: 70%;
   text-align: center;
   margin: 0px auto;
@@ -166,33 +167,33 @@ ul li a {
 }
 
 #second {
-  width: 80%;
+  width: 100%;
   margin: 50px 10% 0 10%;
-  height: 1000px;
+  height: 900px;
   background-image: url(./img/layout.jpg);
   background-repeat: no-repeat;
-  background-size: 60%;
-  background-position: top right;
+  background-size: 40%;
+  background-position: 83.5% -13%;
 }
 
 .text {
-  width: 50%;
+  width: 80%;
   margin-top: 50px;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   text-align: start;
-  padding-left:100px;
+  padding-left: 50px;
   letter-spacing: 0.5px;
 }
 
 .text h1 {
   font-size: 25px;
-  margin-bottom: 20px;
-  font-weight:900;
+  margin-bottom: 18px;
+  font-weight: 900;
 }
 
 .text p {
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   font-size: 17px;
   color: #424d4b;
 }
@@ -232,16 +233,17 @@ legend {
   background-image: url(./img/kitchen.jpg);
   background-repeat: no-repeat;
   background-size: 400px 200px;
-  font-family: 'Merriweather', serif;
+  font-family: 'inter', serif;
   font-weight: lighter;
   font-size: 15px;
   color: #424d4b;
   text-align: left;
-  letter-spacing: 1px;
+
 }
 
 .one h1 {
   margin-top: 210px;
+  margin-bottom: 10px;
 }
 
 .two {
@@ -250,18 +252,18 @@ legend {
   background-image: url(./img/flor.jpg);
   background-repeat: no-repeat;
   background-size: 400px 200px;
-  font-family: 'Merriweather', serif;
+  font-family: 'inter', serif;
   font-weight: lighter;
   font-size: 15px;
   color: #424d4b;
   text-align: left;
-  letter-spacing: 1px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
 .two h1 {
   margin-top: 210px;
+  margin-bottom: 10px;
 }
 
 .three {
@@ -270,35 +272,36 @@ legend {
   background-image: url(./img/blue.jpg);
   background-repeat: no-repeat;
   background-size: 400px 200px;
-  font-family: 'Merriweather', serif;
-  font-weight: lighter;
+  font-family: 'inter', serif;
+  font-weight: 500;
   font-size: 15px;
   color: #424d4b;
   text-align: left;
-  letter-spacing: 1px;
+
 }
 
 .three h1 {
   margin-top: 210px;
+  margin-bottom: 10px;
 }
 
 #footer {
   background-color: rgb(17, 15, 15);
-  height: 350px;
+  height: 310px;
   width: 100%;
   color: #767676;
 }
 
 .footer-container {
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: space-around;
 }
 
 .contact {
-  width: 60%;
+  width: 52%;
   display: block;
-  margin-left: 270px;
+  margin-left: 205px;
   margin-top: 30px;
   letter-spacing: 0.1px;
   font-family: 'inter', sans-serif;
@@ -314,18 +317,21 @@ legend {
   color: #343535;
 }
 
+.text1 {
+  width: 85%;
+}
+
 .copy {
   color: #a4a8a8;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .social {
-  margin-left: 340px;
   height: 70px;
-  width: 30%;
+  width: 18%;
   border-left: 0.1px solid #767676;
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 
 .icon:first-child {
@@ -336,6 +342,6 @@ legend {
   color: #767676;
   font-size: 20px;
   margin-top: 20px;
-  padding: 5px;
+  padding: 15px;
 
 }
