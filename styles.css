@@ -24,13 +24,15 @@
   width: 100%;
   height: 50%;
   border-right: 1px solid rgb(161, 158, 158);
+  position: relative;
+  top: -10px;
 }
 
 #nav ul {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   justify-content: center;
-  line-height: 25px;
+  line-height: 35px;
   font-family: 'Inter', sans-serif;
   text-transform: uppercase;
   list-style: none;
@@ -53,8 +55,7 @@ ul li a {
   display: block;
   position: relative;
   top: -25;
-  left: 20;
-
+  left: 30;
 }
 
 .icon-bar {
@@ -80,7 +81,7 @@ ul li a {
 #image h1 {
   position: absolute;
   top: 180px;
-  right: 250px;
+  right: 24%;
   background: #30403D;
   width: 450px;
   height: 60px;
@@ -93,7 +94,7 @@ ul li a {
 
 #main {
   background: #FFFFFF;
-  height: 1030px;
+  height: 980px;
   width: 70%;
   text-align: center;
   margin: 0px auto;
@@ -119,13 +120,13 @@ ul li a {
 #nav2 {
   margin: 0px auto;
   margin-top: 40px;
-  width: 90%;
+  width: 70%;
   height: 40%;
 }
 
 #nav2 ul {
   display: inline-flex;
-  width: 95%;
+  width: 90%;
   padding: 7px 0px 7px 0px;
   justify-content: space-between;
   border-top: 1px solid black;
@@ -146,7 +147,7 @@ ul li a {
 #nav2 ul li::before {
   content: "\2022";
   color: #CACBCA;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 #nav2 ul li:first-child::before {
@@ -154,11 +155,12 @@ ul li a {
   margin-right: 0px;
 }
 
+
 #first p {
   margin: 0 auto;
   margin-top: -65px;
   height: 150px;
-  width: 100%;
+  width: 75%;
   font-size: 25px;
   font-family: 'Merriweather', serif;
   text-align: center;
@@ -172,8 +174,8 @@ ul li a {
   height: 900px;
   background-image: url(./img/layout.jpg);
   background-repeat: no-repeat;
-  background-size: 40%;
-  background-position: 83.5% -13%;
+  background-size: 27%;
+  background-position: 55.4% -12%;
 }
 
 .text {
@@ -182,19 +184,19 @@ ul li a {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   text-align: start;
-  padding-left: 50px;
+  padding-left: 150px;
   letter-spacing: 0.5px;
 }
 
 .text h1 {
   font-size: 25px;
   margin-bottom: 18px;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .text p {
-  margin-bottom: 60px;
-  font-size: 17px;
+  margin-bottom: 50px;
+  font-size: 15px;
   color: #424d4b;
 }
 
@@ -222,10 +224,11 @@ legend {
 }
 
 #wrap {
-  width: 70%;
+  width: 60%;
   margin: 0px auto;
   margin-top: 40px;
   display: flex;
+  justify-content: center;
 }
 
 .one {
@@ -296,13 +299,13 @@ legend {
 .footer-container {
   width: 90%;
   display: flex;
-  justify-content: space-around;
+
 }
 
 .contact {
-  width: 52%;
+  width: 40%;
   display: block;
-  margin-left: 205px;
+  margin-left: 435px;
   margin-top: 30px;
   letter-spacing: 0.1px;
   font-family: 'inter', sans-serif;
@@ -330,11 +333,13 @@ legend {
 
 .social {
   height: 70px;
-  width: 18%;
+  width: 20%;
   border-left: 0.1px solid #767676;
+  margin-left: 178px;
   display: flex;
   justify-content: start;
 }
+
 /* 
 .icon:first-child {
   margin-left: 0px;
@@ -346,4 +351,241 @@ legend {
   margin-top: 30px;
   padding: 15px;
 
+}
+
+@media (max-width: 2161px) {
+  #image h1 {
+    position: absolute;
+    top: 152px;
+    right: 21%;
+  }
+
+  #nav2 ul li::before {
+    content: "\2022";
+    color: #CACBCA;
+    margin-right: 17px;
+  }
+}
+
+@media (max-width: 2022px) {
+  #first {
+    height: 400px;
+  }
+
+  #first p {
+    height: 173px;
+    font-size: 24px;
+  }
+
+  #nav2 ul li::before {
+    content: "\2022";
+    color: #CACBCA;
+    margin-right: 11px;
+  }
+}
+
+@media (max-width: 1977px) {
+
+  #image h1 {
+    position: absolute;
+    top: 160px;
+    right: 20%;
+  }
+
+  #nav2 {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1947px) {
+  .contact {
+    font-size: 15px;
+  }
+
+  #footer {
+    height: 250px;
+  }
+
+  .contact {
+    margin-left: 395px;
+  }
+}
+
+@media (max-width: 1876px) {
+
+  #first p {
+    width: 80%;
+  }
+
+  #nav2 ul li::before {
+    content: "\2022";
+    color: #CACBCA;
+    margin-right: 8px;
+  }
+
+  #second {
+    background-position: 62.4% -8%;
+  }
+
+}
+
+@media (max-width: 1828px) {
+  #image h1 {
+    position: absolute;
+    top: 170px;
+    right: 18%;
+  }
+
+  #nav2 {
+    width: 80%;
+  }
+
+  #nav2 ul li::before {
+    content: "\2022";
+    color: #CACBCA;
+    margin-right: 14px;
+  }
+
+  #second {
+    background-size: 30%;
+    background-position: 65.4% -8%;
+  }
+
+  .text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1800px) {
+  #first p {
+    width: 83%;
+  }
+
+  #second {
+    background-position: 70.4% -8%;
+  }
+
+  .contact {
+    margin-left: 395px;
+  }
+}
+
+@media (max-width: 1752px) {
+  #first p {
+    width: 90%;
+  }
+
+  #nav2 ul {
+    width: 94%;
+  }
+
+  #footer {
+    height: 250px;
+  }
+}
+
+@media (max-width: 1678px) {
+  #image h1 {
+    position: absolute;
+    top: 180px;
+    right: 16%;
+  }
+
+  #nav2 ul {
+    width: 100%;
+  }
+
+  #second {
+    background-position: 76% -8%;
+  }
+
+  #footer {
+    height: 290px;
+  }
+
+  .contact {
+    margin-left: 365px;
+  }
+}
+
+@media (max-width: 1632px) {
+  #image h1 {
+    position: absolute;
+    top: 180px;
+    right: 14%;
+  }
+
+  #nav2 ul li {
+    font-size: 14px;
+  }
+
+  #second {
+    background-position: 80% -9%;
+    background-size: 35%;
+  }
+
+  #first p {
+    width: 100%;
+  }
+
+  .text {
+    padding-left: 114px;
+  }
+
+  #footer {
+    height: 305px;
+  }
+
+  .contact {
+    margin-left: 338px;
+  }
+}
+
+@media (max-width: 1568px) {
+  #nav2 ul {
+    width: 103%;
+  }
+
+  #second {
+    background-position: 84% 1%;
+  }
+
+  .text h1 {
+    font-size: 22px;
+  }
+
+  .text p {
+    font-size: 15px;
+  }
+
+  .contact {
+    margin-left: 320px;
+  }
+}
+
+
+@media (max-width: 1456px) {
+  #image h1 {
+    position: absolute;
+    top: 192px;
+    right: 12%;
+  }
+
+  #first p {
+    height: 173px;
+    font-size: 22px;
+  }
+
+  .text {
+    padding-left: 79px;
+  }
+
+  #footer {
+    height: 250px;
+  }
+
+  .contact {
+    width: 64%;
+    font-size: 14px;
+  }
 }
