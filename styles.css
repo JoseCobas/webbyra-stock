@@ -402,6 +402,10 @@ legend {
     font-size: 15px;
   }
 
+  #first p {
+    width: 80%;
+  }
+
   #footer {
     height: 250px;
   }
@@ -438,6 +442,10 @@ legend {
 
   #nav2 {
     width: 80%;
+  }
+
+  #first p {
+    width: 83%;
   }
 
   #nav2 ul li::before {
