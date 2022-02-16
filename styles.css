@@ -340,11 +340,6 @@ legend {
   justify-content: start;
 }
 
-/* 
-.icon:first-child {
-  margin-left: 0px;
-} */
-
 .icon {
   color: #767676;
   font-size: 20px;
@@ -430,7 +425,6 @@ legend {
   #second {
     background-position: 62.4% -8%;
   }
-
 }
 
 @media (max-width: 1828px) {
