@@ -565,7 +565,6 @@ legend {
   }
 }
 
-
 @media (max-width: 1456px) {
   #image h1 {
     position: absolute;
@@ -589,5 +588,32 @@ legend {
   .contact {
     width: 64%;
     font-size: 14px;
+  }
+}
+
+@media (max-width: 1434px) {
+
+  #nav2 ul li::before {
+    content: "\2022";
+    color: #CACBCA;
+    margin-right: 7px;
+  }
+
+  .icon {
+    display: block;
+    position: relative;
+    top: -25;
+    left: 15;
+  }
+
+  #image h1 {
+    position: absolute;
+    top: 190px;
+    right: 11%;
+  }
+
+  .contact {
+    width: 40%;
+    font-size: 11px;
   }
 }
